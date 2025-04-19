@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+<!-- HEADER -->
+<header>
+    <h1>Your Name</h1>
+    <p>web developer</p>
+</header>
+<!-- Navbar -->
+<nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main>
+    <!-- SECTION: About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="assets/photo1.jpg" alt="photo of me">
+        <p>write short description about yourself</p>
+        <div>
+            <h3>My skills :</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+        <div>
+            <h3>audio presentation :</h3>
+            <audio controls>
+                <source src="assets/audio1.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </section>
+
+    <!-- SECTION: Work -->
+    <section id="work">
+        <h2>My Projects</h2>
+        <p>this is a video of one of my projects :</p>
+        <video width="320" height="240" controls>
+            <source src="assets/examlpe.mp4" type="video/mp4">
+        </video>
+
+        <h3>Liste de projets :</h3>
+        <table border="1">
+            <tr>
+              <th>Projet</th>
+              <th>Année</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>Portfolio</td>
+              <td>2025</td>
+              <td>Mon propre site web personnel</td>
+            </tr>
+            <tr>
+              <td>To-do App</td>
+              <td>2025</td>
+              <td>Application de gestion de tâches</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- SECTION: Resume -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <ul>
+            <li>2024 - Début de ma formation en développement web</li>
+            <li>2025 - Réalisation de projets personnels</li>
+        </ul>
+    </section>
+
+    <!-- SECTION: Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+
+            <div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom">
+            </div>
+
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" cols="40"></textarea>
+            </div>
+
+            <input type="submit" value="Envoyer">
+
+        </form>
+    </section>
+</main>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Ton Nom - Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
